@@ -2,6 +2,7 @@ phsp - Phitherek_' s Startup Profiler - A program for setting up and managing WM
 
 Dependencies:
 GTK+-2.0 or later (but not 3) - development and runtime - for GTK Config Tool
+pkg-config command
 
 For installation instructions refer to INSTALL or wiki.
 
