@@ -1,0 +1,10 @@
+phsp - Phitherek_' s Startup Profiler - Installation
+
+1. Dependencies
+phsp-conf-gtk needs a GTK+-2.0 or later library (development to compile and runtime to work). All the rest needs only the build environment (this one from GNU) for C++.
+2. make
+Compiles phsp (Profile Launcher), phsp-conf (Config Tool) and phsp-conf-gtk (GTK Config Tool).
+3. make install (with root privileges by sudo)
+Sets up phsp for active user and installs the program into /usr/bin and additional files to /usr/share/phsp.
+4. (optional) make userset
+Sets up phsp for active user. This can be done also by /usr/share/phsp/phsp-userset script after installation.

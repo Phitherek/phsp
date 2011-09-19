@@ -1,0 +1,7 @@
+#!/bin/bash	
+mkdir ~/.phsp/
+chmod a+rwx ~/.phsp
+mkdir ~/.phsp/profiles
+chmod a+rwx ~/.phsp/profiles
+cp /usr/share/phsp/test.phsp ~/.phsp/profiles
+chmod a+rwx ~/.phsp/profiles/test.phsp
